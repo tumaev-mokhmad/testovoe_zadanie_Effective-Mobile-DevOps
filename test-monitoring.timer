@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for test process monitoring
+
+[Timer]
+OnUnitActiveSec=1m
+Unit=test-monitoring.service
+
+[Install]
+WantedBy=timers.target
